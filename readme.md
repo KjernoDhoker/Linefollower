@@ -7,17 +7,17 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP 32 WROOM
 
-motors: 
+motors: 50:1
 
-h-bridge:
+h-bridge: drv 8833
 
-sensors:
+sensors: QTR 8A
 
-batteries:
+batteries: 18650
 
-wireless communication:
+wireless communication: ESP 32
 
 distance sensor - motors:
 
