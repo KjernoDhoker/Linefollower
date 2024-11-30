@@ -14,4 +14,7 @@
 |          10|1-10 Stuks Drv8833 Motor Aandrijfmodule 1.5a Dual H Brug Dc Versnelling Motor Driver Controller Board Diy Kit|H brug DRV8833|nieuw|€5.41|1|€5.41|
 |          12|A4988 Stepper Motor Driver Module Met Koellichaam Voor Arduino 3d Printer Reprap Cnc Machine Of Robotica|driver stappenmotor|nieuw|€5.72|1|€5.72|
 |          13|Dupont Lijn 10/20/30/40Cm 40pin Mannelijk Naar Mannelijk + Mannelijk Naar Vrouwelijk En Vrouwelijk Naar Vrouwelijk Jumper Draad Dupont Kabel Voor Arduino Diy Kit|extra wires|nieuw|€2.03|1|€2.03|
-|          14|lijm|secondenlijm voor componenten vast te hangen|recup| |1| |
+|          14|lijm(tex 7)|secondenlijm voor componenten vast te hangen|recup| |1| |
+|          15|bout|bout m3|recup| |1| |
+|          16|moer|moer m3|recup| |1| |
+|          17|onderstel|3D printer|school| |1| |
