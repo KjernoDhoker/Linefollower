@@ -7,6 +7,7 @@ Bij dit project bouwen we een Line Following Robot die een zwarte lijn op een wi
 
 Stuklijst (BoM)
 Nr	Naam	Omschrijving	Aantal	Prijs/stuk	Subtotaal
+
 |       1| QTR-8A reflectance sensor array- analog - Pololu 960   | line following sensor           |  nieuw         |    €10          |  1    |   €10        |
 |         2| zelfklevend zwenkwiel|24-4 Stuks Zelfklevende Zwenkwielen 360 Graden Rotatie Zwenkwielen Mini Wielen Voor Het Verplaatsen Van Meubelen Caster Katrol|nieuw|0,93| 1| €0.93| 
 |         3| 18650 Acculader 1/2/4 Sleuven Dual 18650 Opladen 3.7V Oplaadbare Lithium Batterij Usb Oplader Voor 16340 14500 18650 26650 | baterij oplader| nieuw|€0.93|1|€0.93| 
@@ -22,6 +23,7 @@ Nr	Naam	Omschrijving	Aantal	Prijs/stuk	Subtotaal
 |          15|bout|bout m3|recup| |1| |
 |          16|moer|moer m3|recup| |1| |
 |          17|onderstel|3D printer|school| |1| |
+
 
 Stap 1: Materialen en Gereedschappen
 1.1 Materiaalcontrole
