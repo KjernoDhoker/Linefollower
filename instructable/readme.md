@@ -1,6 +1,5 @@
 # Instructable
 
-
 Bij dit project bouwen we een Line Following Robot die een zwarte lijn op een wit parcours kan volgen. Het omvat mechanische montage, elektrische bedrading, en softwareontwikkeling. Deze uitgebreide instructable leidt je stap voor stap door het proces.
 
 Stap 1: Materialen en Gereedschappen
@@ -70,25 +69,72 @@ Gebruik een schema waarin:
 1. Sluit de ESP32 aan op de H-brug en sensoren.
 1. Voeg een power-on LED en een schuifschakelaar toe aan het circuit.
 
-Stap 4: Software-installatie
+Stap 4: Het Programma Laden op de ESP32
 
-4\.1 Arduino IDE-configuratie
+Een cruciale stap bij het maken van je Line Following Robot is het uploaden van de code naar de ESP32- microcontroller via de Arduino IDE. Volg deze ingewikkelde stappen:
 
-1. Voeg de ESP32 Board Manager toe via de instellingen in de Arduino IDE.
-1. Installeer bibliotheken zoals PololuQTRSensors en een PID-controller bibliotheek .
+9\.1 Arduino IDE voorbereiden
 
-4\.2 Basiselementen Programmeren
+1. Arduino IDE Installeren
+- Download de Arduino IDE en installeer deze op je computer.
 
-1. Sensorkalibratie:
-- Schrijf een routine om de minimale en maximale waarden van de sensoren op wit en zwart te impliceren.
+2\. ESP32 Board Manager Toevoegen
 
-2\. Motor Sturing:
+- Open de Arduino IDE. Ga naar Bestand > Voorkeuren .
+- Zoek het veld Extra Boards Manager-URL's en voeg deze URL toe:
 
-- Programmeur PWM-signalen voor de motorsnelheid en richting aan te passagiers.
+Arduino
 
-3\. PID-Regelaar:
+Code kopiëren
 
-- Schrijf een PID-algoritme om defecte van de lijn te corrigeren.
+- Klik op OK .
+
+3\. Bestuursmanager Installateurs
+
+- Ga naar Hulpmiddelen > Bestuur > Bestuursmanager .
+- Zoek naar ESP32 en klik op Installeren .
+
+9\.2 ESP32 configureren in Arduino IDE
+
+1. Selecteer het ESP32-bord
+- Ga naar Hulpmiddelen > Bord > ESP32 Arduino > ESP32 Dev Module .
+
+2\. Selecteer de Poort
+
+- Verbind de ESP32 met je computer via een USB-kabel.
+- Ga naar Hulpmiddelen > Poort en selecteer de COM-poort waarop je ESP32 is aangesloten.
+
+3\. Stel de uploadparameters in
+
+- Zorg ervoor dat de volgende instellingen correct zijn:
+* Uploadsnelheid: 115200.
+
+9\.3 Code downloaden
+
+1. Downloaden vanuit github
+1. Bibliotheken Toevoegen
+- Ga naar Schets > Bibliotheek opnemen > Bibliotheken beheren .
+- Zoek en installeer de volgende bibliotheken:
+* PololuQTRSensors voor de reflectiesensor.
+* PID\_v1 voor de PID-regelaar (optioneel).
+
+9\.4 Code uploaden naar de ESP32
+
+1. Upload de code
+- Klik op het pijltje Uploaden (??) in de Arduino IDE.
+- Tijdens het uploaden kan de ESP32 in flashmodus gezet worden:
+* Houd de BOOT-knop van de ESP32 ingedrukt totdat het uploadproces begint.
+
+2\. Controleer de Serial Monitor
+
+- Na het uploaden kun je de uitvoer bekijken:
+* Ga naar Hulpmiddelen > Seriële Monitor en stel de baudrate in op 115200 .
+
+9\.5 Foutopsporing
+
+* Foutmelding: “Kan geen verbinding maken met ESP32: Time-out bij wachten op pakketheader.”
+- Houd de BOOT-knop langer ingedrukt tijdens het uploadproces.
+* Geen poort zichtbaar: Controleer of de juiste driver defect is voor de USB-kabel.
 
 Stap 5: Testen en debuggen
 
