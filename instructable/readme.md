@@ -84,11 +84,7 @@ Een cruciale stap bij het maken van je Line Following Robot is het uploaden van 
 - Zoek het veld Extra Boards Manager-URL's en voeg deze URL toe:
   https://dl.espressif.com/dl/package_esp32_index.json
 
-Arduino
 
-Code kopiëren
-
-- Klik op OK .
 
 3\. Bestuursmanager Installateurs
 
