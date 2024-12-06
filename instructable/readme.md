@@ -82,6 +82,7 @@ Een cruciale stap bij het maken van je Line Following Robot is het uploaden van 
 
 - Open de Arduino IDE. Ga naar Bestand > Voorkeuren .
 - Zoek het veld Extra Boards Manager-URL's en voeg deze URL toe:
+  https://dl.espressif.com/dl/package_esp32_index.json
 
 Arduino
 
