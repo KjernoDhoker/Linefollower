@@ -73,7 +73,7 @@ Stap 4: Het Programma Laden op de ESP32
 
 Een cruciale stap bij het maken van je Line Following Robot is het uploaden van de code naar de ESP32- microcontroller via de Arduino IDE. Volg deze ingewikkelde stappen:
 
-9\.1 Arduino IDE voorbereiden
+4\.1 Arduino IDE voorbereiden
 
 1. Arduino IDE Installeren
 - Download de Arduino IDE en installeer deze op je computer.
@@ -94,7 +94,7 @@ Code kopiëren
 - Ga naar Hulpmiddelen > Bestuur > Bestuursmanager .
 - Zoek naar ESP32 en klik op Installeren .
 
-9\.2 ESP32 configureren in Arduino IDE
+4\.2 ESP32 configureren in Arduino IDE
 
 1. Selecteer het ESP32-bord
 - Ga naar Hulpmiddelen > Bord > ESP32 Arduino > ESP32 Dev Module .
@@ -109,7 +109,7 @@ Code kopiëren
 - Zorg ervoor dat de volgende instellingen correct zijn:
 * Uploadsnelheid: 115200.
 
-9\.3 Code downloaden
+4\.3 Code downloaden
 
 1. Downloaden vanuit github
 1. Bibliotheken Toevoegen
@@ -118,7 +118,7 @@ Code kopiëren
 * PololuQTRSensors voor de reflectiesensor.
 * PID\_v1 voor de PID-regelaar (optioneel).
 
-9\.4 Code uploaden naar de ESP32
+4\.4 Code uploaden naar de ESP32
 
 1. Upload de code
 - Klik op het pijltje Uploaden (??) in de Arduino IDE.
@@ -130,7 +130,7 @@ Code kopiëren
 - Na het uploaden kun je de uitvoer bekijken:
 * Ga naar Hulpmiddelen > Seriële Monitor en stel de baudrate in op 115200 .
 
-9\.5 Foutopsporing
+4\.5 Foutopsporing
 
 * Foutmelding: “Kan geen verbinding maken met ESP32: Time-out bij wachten op pakketheader.”
 - Houd de BOOT-knop langer ingedrukt tijdens het uploadproces.
