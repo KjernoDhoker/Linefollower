@@ -1,6 +1,5 @@
 # Instructable
 
-Inleiding
 
 Bij dit project bouwen we een Line Following Robot die een zwarte lijn op een wit parcours kan volgen. Het omvat mechanische montage, elektrische bedrading, en softwareontwikkeling. Deze uitgebreide instructable leidt je stap voor stap door het proces.
 
