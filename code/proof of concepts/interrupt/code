@@ -1,29 +1,26 @@
-const int drukknop = 1;
-const int Led = 18; 
-bool StatusKnop; 
-bool led_aan; 
+const int Button = 1; 
+const int ledPin = 18; 
+bool Running; 
 
 void setup() {
-  Serial.begin(9600);
-
-  pinMode(drukknop, INPUT);
-  pinMode(Led, OUTPUT); 
-   
+  analogReference(DEFAULT);
+  pinMode(Button, INPUT);
+  pinMode(ledPin, OUTPUT);
+  attachInterrupt(digitalPinToInterrupt(Button),Interrupt, RISING);
 }
 
 void loop() {
+  if(Running == true){
+    digitalWrite(ledPin, HIGH);
+    delay(200);
+    digitalWrite(ledPin, LOW);
+    delay(200);
+  }
+  else {
+    digitalWrite(ledPin, HIGH);
+  }  
+}
 
-  StatusKnop = digitalRead(drukknop);
-  
-  if (StatusKnop == HIGH)
-  { 
-     
-    digitalWrite(Led, HIGH);
-    led_aan = false;
-    delay(5000);
-  }
-  else if (StatusKnop == LOW && led_aan == false)
-  {
-    digitalWrite(Led, LOW);
-  }
+void Interrupt() {
+    Running =! Running; 
 }
