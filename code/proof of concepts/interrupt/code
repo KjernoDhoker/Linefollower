@@ -1,5 +1,5 @@
-const int drukknop = 2;
-const int Led = 12; 
+const int drukknop = 1;
+const int Led = 18; 
 bool StatusKnop; 
 bool led_aan; 
 
